@@ -68,13 +68,13 @@ def main():
         print()
         print("SHA1(\"" + input_str.decode('utf-8') + "\") = " + bytes_to_hex(output))
         
-        input_str = "jai".encode('utf-8')
+        input_str = "gowtham".encode('utf-8')
         md.update(input_str)
         output = md.digest()
         print()
         print("SHA1(\"" + input_str.decode('utf-8') + "\") = " + bytes_to_hex(output))
         
-        input_str = "jai surya".encode('utf-8')
+        input_str = "Nkrithy".encode('utf-8')
         md.update(input_str)
         output = md.digest()
         print()
@@ -96,7 +96,8 @@ if __name__ == "__main__":
 
 ```
 ## OUTPUT:
-![image](https://github.com/jaisurya143/Ex-04/assets/121999338/858c435b-f714-446e-86ba-e680dbce0295)
+![image](https://github.com/krithygowthamn/Ex-04/assets/122247810/28208541-5066-4186-961e-f8d392ea9c62)
+
 
 
 
